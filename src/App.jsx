@@ -1,11 +1,14 @@
+import Card from "./components/Card.jsx"
+import Header from "./components/Header.jsx"
+import Footer from "./components/Footer.jsx"
 
 function App() {
 
   return (
     <>
-      <div>
-
-      </div>
+      <Header />
+      <Card />
+      <Footer />
     </>
   )
 }
